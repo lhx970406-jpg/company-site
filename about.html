@@ -3,77 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <title>会社概要｜株式会社盛澤</title>
-  <meta name="description" content="株式会社盛澤の会社概要ページです。日本国内のECモールを中心に、暮らしに寄り添う商品を幅広く取り扱う通販事業を展開しています。">
+  <meta name="description" content="株式会社盛澤の会社概要ページです。ECモールを中心に事業を展開しています。">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container navbar">
-      <div class="logo">株式会社盛澤</div>
-      <div class="menu-toggle" id="menuToggle">☰</div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="about.html">会社概要</a></li>
-        <li><a href="services.html">事業内容</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <a href="index.html">
+        <img src="https://image.rakuten.co.jp/morisawa562879/cabinet/logo1200.jpg" alt="株式会社盛澤">
+      </a>
     </div>
-  </header>
+    <nav class="main-nav">
+      <a href="index.html">ホーム</a>
+      <a href="about.html">会社概要</a>
+      <a href="services.html">事業内容</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
 
-  <section>
-    <div class="container two-column">
-      <div>
-        <h1 class="section-title" style="text-align:left;">会社概要</h1>
-        <p>
-          株式会社盛澤は、日本国内のECモールを中心に、
-          日常生活に寄り添う商品を幅広く取り扱う通販事業を展開しております。
-        </p>
-        <p style="margin-top:12px;">
-          お客様に安心してご利用いただけるよう、
-          品質・対応・信頼を大切にした運営体制を心がけています。
-        </p>
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">会社概要</h1>
 
-        <table style="margin-top:24px; font-size:14px; width:100%; border-collapse:collapse;">
-          <tr>
-            <td style="padding:8px 0; width:120px;"><strong>会社名</strong></td>
-            <td>株式会社盛澤</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0;"><strong>所在地</strong></td>
-            <td>（後ほどご記入ください）</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0;"><strong>事業内容</strong></td>
-            <td>ECモール運営、商品企画・販売</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0;"><strong>設立</strong></td>
-            <td>（後ほどご記入ください）</td>
-          </tr>
-        </table>
-      </div>
+    <table style="width:100%; max-width:720px; margin:0 auto; border-collapse: collapse; font-size:15px;">
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <th style="padding:16px 0; text-align:left; width:30%;">会社名</th>
+        <td style="padding:16px 0;">株式会社盛澤</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <th style="padding:16px 0; text-align:left;">事業内容</th>
+        <td style="padding:16px 0;">
+          ECモール運営 / 通販事業 / 商品企画・販売
+        </td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <th style="padding:16px 0; text-align:left;">取扱商品</th>
+        <td style="padding:16px 0;">
+          インテリア用品、ペット用品、生活雑貨 ほか
+        </td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <th style="padding:16px 0; text-align:left;">所在地</th>
+        <td style="padding:16px 0;">
+          〒590-0982<br>
+          大阪府堺市堺区海山町4丁171-2
+        </td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <th style="padding:16px 0; text-align:left;">TEL / FAX</th>
+        <td style="padding:16px 0;">
+          072-242-3995
+        </td>
+      </tr>
+      <tr>
+        <th style="padding:16px 0; text-align:left;">主要取引先</th>
+        <td style="padding:16px 0;">
+          楽天市場 / Amazon / Yahoo!ショッピング / au PAY マーケット
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
 
-      <div class="image-placeholder">
-        会社イメージ・作業風景
-      </div>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>© 2026 株式会社盛澤</div>
+    <div class="footer-links">
+      <a href="about.html">会社概要</a>
+      <a href="contact.html">お問い合わせ</a>
     </div>
-  </section>
+  </div>
+</footer>
 
-  <footer>
-    <div class="container footer-inner">
-      <div>© 2026 株式会社盛澤. All rights reserved.</div>
-      <div class="footer-links">
-        <a href="about.html">会社概要</a>
-        <a href="contact.html">お問い合わせ</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    document.getElementById('menuToggle').addEventListener('click', function () {
-      document.getElementById('navLinks').classList.toggle('show');
-    });
-  </script>
 </body>
 </html>
